@@ -1,0 +1,17 @@
+a svg{
+    animation: arrow-down ease 2s infinite;
+    color: black;
+    font-size: 10rem;
+    margin: 20rem 30rem;
+}
+body{
+    background-color: aqua;
+}
+@keyframes arrow-down {
+    0%{
+        transform: translateY(0px);
+    }
+    30%{
+        transform: translateY(30px);
+    }
+}
